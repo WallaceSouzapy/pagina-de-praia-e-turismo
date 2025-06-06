@@ -1,0 +1,63 @@
+body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f8ff; /* Cor suave para o fundo */
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #0047ab; /* Azul vibrante */
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+    }
+    .nav-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Carrossel */
+    .carousel-item img {
+      height: 400px;
+      object-fit: cover;
+    }
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5); /* Fundo transparente */
+      border-radius: 8px;
+      padding: 10px;
+    }
+    .carousel-caption h5, .carousel-caption p {
+      color: #fff;
+    }
+
+    /* Cards */
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .card {
+      border: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+    .btn-primary {
+      background-color: #0047ab;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #003580;
+    }
+
+    /* Rodapé */
+    footer {
+      background-color: #0047ab;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
